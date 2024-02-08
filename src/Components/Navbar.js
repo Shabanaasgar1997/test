@@ -17,9 +17,9 @@ const Menubar_Links = styled.a`
   color: white;
   font-size: 1.25em;
 `;
-const Jithender = styled.ul`
-  background: blue;
-`;
+// const Jithender = styled.ul`
+//   background: blue;
+// `;
 export default function Navbar() {
   return (
     <>
