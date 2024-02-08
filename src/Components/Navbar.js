@@ -8,11 +8,11 @@ const Menubar = styled.ul`
   background: green;
 `;
 
-const Menubar_Snippets = styled.li`
+const Snippets = styled.li`
   padding: 1em;
 `;
 
-const Menubar_Links = styled.a`
+const MenuLinks = styled.a`
   text-decoration: none;
   color: white;
   font-size: 1.25em;
@@ -24,28 +24,28 @@ export default function Navbar() {
   return (
     <>
       <Menubar>
-        <Menubar_Snippets>
-          <Menubar_Links href="">
+        <Snippets>
+          <MenuLinks href="">
             <Link to="/home" className="nav-link">
               Home
             </Link>
-          </Menubar_Links>
-        </Menubar_Snippets>
-        <Menubar_Snippets>
-          <Menubar_Links href="">
+          </MenuLinks>
+        </Snippets>
+        <Snippets>
+          <MenuLinks href="">
             <Link to="/about" className="nav-link">
               About
             </Link>
-          </Menubar_Links>
-        </Menubar_Snippets>
+          </MenuLinks>
+        </Snippets>
 
-        <Menubar_Snippets>
-          <Menubar_Links href="">
+        <Snippets>
+          <MenuLinks href="">
             <Link to="/services" className="nav-link">
               Services
             </Link>
-          </Menubar_Links>
-        </Menubar_Snippets>
+          </MenuLinks>
+        </Snippets>
       </Menubar>
     </>
   );
