@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { CiFacebook, CiAvocado } from "react-icons/ci";
+// import { CiFacebook, CiAvocado } from "react-icons/ci";
 const Virat = styled.h1`
   color: blue;
 `;
