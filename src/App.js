@@ -6,6 +6,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
 import PageNotFound from "./Pages/PageNotFound";
+import Menu from "./Components/Menu";
+import Products from "./Pages/Products";
 function App() {
   let username = " Propose Day!!!";
   let count = 100;
@@ -22,6 +24,8 @@ function App() {
         <Route path="/home" element={<Home virat={username} />} />
 
         <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+
         <Route
           path="/services"
           element={
@@ -33,7 +37,7 @@ function App() {
             />
           }
         />
-
+        <Route path="/menu" element={<Menu />} />
         <Route path="*" element={<PageNotFound />}>
           <Route path=":name" element={<PageNotFound />} />
         </Route>

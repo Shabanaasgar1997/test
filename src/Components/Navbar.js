@@ -46,6 +46,21 @@ export default function Navbar() {
             </Link>
           </MenuLinks>
         </Snippets>
+
+        <Snippets>
+          <MenuLinks href="">
+            <Link to="/menu" className="nav-link">
+              States
+            </Link>
+          </MenuLinks>
+        </Snippets>
+        <Snippets>
+          <MenuLinks href="">
+            <Link to="/products" className="nav-link">
+              Products
+            </Link>
+          </MenuLinks>
+        </Snippets>
       </Menubar>
     </>
   );
