@@ -13,8 +13,7 @@ export default class Menu extends Component {
     };
     const Remove = () => {
       this.setState({
-        count:
-          this.state.count > 1 ? this.state.count - 1 : (DisabledBtn = true),
+        count: this.state.count > 1 ? this.state.count - 1 : this.state.count,
       });
     };
     const Updatedata = () => {
@@ -22,7 +21,7 @@ export default class Menu extends Component {
         name: "Shabana Anjum",
       });
     };
-    let DisabledBtn = true;
+    // let DisabledBtn = true;
     return (
       <>
         <h1>HEY THIS IS STATES CONCEPT</h1>
